@@ -1,0 +1,118 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(251, 251, 251, 0.904);
+}
+
+
+
+h1{
+    color: rgb(229, 228, 240);
+    margin-top: 68px;
+    margin-left: 100px;
+    text-transform: uppercase;
+    font-weight:700;
+    font-size: 50px;
+    text-decoration: none;
+    
+}
+h2{
+    color: rgb(221, 232, 246);
+    margin-top: -25px;
+    margin-left: 104px;
+    font-weight: 500;
+    font-size: 30px;
+    
+}
+
+.container {
+   
+    width: 1000px;
+    height: 550px;
+    margin: 20px auto;
+}
+
+.calculator {
+    width: 320px;
+    height: 520px;
+    background-color: rgb(4, 0, 21);
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px  rgba(0, 0, 0, .1),
+                -3px -3px 3px  rgba(234, 231, 231, 0.187),
+                inset 3px 3px 3px  rgba(0, 0, 0, .1),
+                inset -3px -3px 3px  rgba(234, 231, 231, 0.187);
+}
+
+.result {
+    height: 105px;
+    background-color: rgba(3, 17, 64, 0.448);
+    border-radius: 1rem 1rem 0 0;
+}
+
+.history {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #c78b3b;
+}
+
+.output {
+    text-align: right;
+    height: 60px;
+    margin: -9px 20px;
+    font-size: 30px;
+    color: rgb(253, 253, 253);
+}
+
+.keyboard {
+    height: 400px;
+}
+
+.operator, .number, .empty {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.number{
+    background-color: #dc6c21e7;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .1),
+                -10px -10px 10px rgba(192, 191, 191, 0.187),
+                inset 10px 10px 10px rgba(0, 0, 0, .1),
+                inset -10px -10px 10px rgba(183, 182, 182, 0.187);
+}
+
+.empty{
+    background-color:rgb(4, 0, 21);
+}
+.operator {
+    background-color: rgb(127, 119, 98);
+}
+
+.number, .operator {
+    cursor: pointer;
+}
+
+.operator:active, .number:active {
+    font-size: 13px;
+}
+
+.operator:focus, .number:focus, .empty:focus {
+    outline: 0;
+}
+
+.operator:nth-child(4n){
+    font-size: 20px;
+    background-color: rgb(237, 172, 66);
+}
+
+
